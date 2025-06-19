@@ -1,0 +1,41 @@
+Create a Java program that demonstrates various arithmetic and assignment operators.
+
+**Requirements:**
+- Use +, -, *, /, % operators
+- Demonstrate assignment operators (=, +=, -=, *=, /=)
+- Show the results of each operation
+
+Examples:
+Input:
+10 5
+Output:
+Addition: 15 Subtraction: 5 Multiplication: 50 Division: 2 Modulus: 0
+Explanation: Program performs arithmetic operations on two numbers
+
+public static void main(String[] args) {
+        int num1 = 10;
+        int num2 = 5;
+
+        
+        System.out.println("Add: " + (num1 + num2));      
+        System.out.println("Sub: " + (num1 - num2));    
+        System.out.println("Mult: " + (num1 * num2)); 
+        System.out.println("Div: " + (num1 / num2));       
+        System.out.println("Mod: " + (num1 % num2));       
+
+       
+        int a = 10;  
+
+        a = a+5; 
+        System.out.println("a += 5: " + a); 
+
+        a = a-3; 
+        System.out.println("a -= 3: " + a); 
+
+        a =a* 2; 
+        System.out.println("a *= 2: " + a); 
+
+        a = a/4; 
+        System.out.println("a /= 4: " + a); 
+    }
+}
