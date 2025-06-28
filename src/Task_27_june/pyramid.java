@@ -11,13 +11,13 @@ public class pyramid {
        for(int i=0; i<=n; i++)
        {
            //print space
-           for(int space= 1; space<=n-1; space++)
+           for(int space= 1; space<=n-i; space++)
            {
                System.out.print(" ");
            }
            for( int star=1; star<=2*i-1; star++)
            {
-               System.out.print(" *");
+               System.out.print("*");
            }
            System.out.println();
        }
