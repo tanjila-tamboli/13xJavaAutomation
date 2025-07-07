@@ -24,7 +24,7 @@ class Guitar implements Playable
 }
 
 class Piano implements Playable{
-  public   void play()
+  public void play()
     {
         System.out.println("play a Piano ");
     }
