@@ -24,7 +24,7 @@ abstract class Color
 
 class Black extends Color
 {
-    void shoeColor()
+    void showColor()
     {
         //System.out.println("black");
     }
