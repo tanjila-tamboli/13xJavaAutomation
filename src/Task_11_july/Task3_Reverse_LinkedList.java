@@ -15,12 +15,14 @@ public class Task3_Reverse_LinkedList {
         l1.add(30);
         l1.add(40);
         System.out.println("before reverse:" +l1);
+       // approch 1
+        System.out.println( l1.reversed());
 
-        //Approch1
+        //Approch2
         Collections.reverse(l1);
         System.out.println(l1);
 
-         //Approch2
+         //Approch3
        /* for(int i=l1.size()-1; i>0; i-- )
         {
             System.out.println(" after reverse:" +l1.get(i));
