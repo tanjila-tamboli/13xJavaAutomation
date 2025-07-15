@@ -26,6 +26,7 @@ class A{
     int a=15;
      A(int a)
      {
+
          this.a=a;
      }
      void displayValue()
