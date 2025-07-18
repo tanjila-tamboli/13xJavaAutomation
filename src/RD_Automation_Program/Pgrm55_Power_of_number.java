@@ -2,7 +2,7 @@ package RD_Automation_Program;
 
 import java.util.Scanner;
 
-public class Pgrm_55_Power_of_number {
+public class Pgrm55_Power_of_number {
     public static void main(String[] args) {
 
         Scanner s1= new Scanner(System.in);
